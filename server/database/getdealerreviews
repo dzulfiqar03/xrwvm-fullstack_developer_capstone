@@ -1,0 +1,11 @@
+$ curl http://localhost:3030/djangoapp/reviews/dealer/15
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /djangoapp/reviews/dealer/15</pre>
+</body>
+</html>
