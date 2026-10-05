@@ -1,0 +1,15 @@
+Watching for file changes with StatReloader
+/Applications/XAMPP/xamppfiles/htdocs/Certification/IBM - Capstone/xrwvm-fullstack_developer_capstone/server/venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/Applications/XAMPP/xamppfiles/htdocs/Certification/IBM - Capstone/xrwvm-fullstack_developer_capstone/server/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Applications/XAMPP/xamppfiles/htdocs/Certification/IBM - Capstone/xrwvm-fullstack_developer_capstone/server/venv/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/Applications/XAMPP/xamppfiles/htdocs/Certification/IBM - Capstone/xrwvm-fullstack_developer_capstone/server/venv/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/Applications/XAMPP/xamppfiles/htdocs/Certification/IBM - Capstone/xrwvm-fullstack_developer_capstone/server/venv/lib/python3.9/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+[05/Oct/2026 08:06:12] "GET /sw.js HTTP/1.1" 400 71988
