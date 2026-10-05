@@ -1,0 +1,458 @@
+backend	Set up job	﻿2026-10-05T09:19:22.7893578Z Current runner version: '2.337.0'
+backend	Set up job	2026-10-05T09:19:22.7918615Z ##[group]Runner Image Provisioner
+backend	Set up job	2026-10-05T09:19:22.7919496Z Hosted Compute Agent
+backend	Set up job	2026-10-05T09:19:22.7920091Z Version: 20260901.588
+backend	Set up job	2026-10-05T09:19:22.7920796Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+backend	Set up job	2026-10-05T09:19:22.7921511Z Build Date: 2026-09-01T19:56:44Z
+backend	Set up job	2026-10-05T09:19:22.7922263Z Worker ID: {5fe960e3-c31f-4011-a7a0-a0889bc29646}
+backend	Set up job	2026-10-05T09:19:22.7922963Z Azure Region: westus
+backend	Set up job	2026-10-05T09:19:22.7923537Z ##[endgroup]
+backend	Set up job	2026-10-05T09:19:22.7925139Z ##[group]Operating System
+backend	Set up job	2026-10-05T09:19:22.7925779Z Ubuntu
+backend	Set up job	2026-10-05T09:19:22.7926352Z 24.04.5
+backend	Set up job	2026-10-05T09:19:22.7926878Z LTS
+backend	Set up job	2026-10-05T09:19:22.7927690Z ##[endgroup]
+backend	Set up job	2026-10-05T09:19:22.7928303Z ##[group]Runner Image
+backend	Set up job	2026-10-05T09:19:22.7928892Z Image: ubuntu-24.04
+backend	Set up job	2026-10-05T09:19:22.7929516Z Version: 20260927.320.1
+backend	Set up job	2026-10-05T09:19:22.7930574Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+backend	Set up job	2026-10-05T09:19:22.7932317Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+backend	Set up job	2026-10-05T09:19:22.7933298Z ##[endgroup]
+backend	Set up job	2026-10-05T09:19:22.7934526Z ##[group]GITHUB_TOKEN Permissions
+backend	Set up job	2026-10-05T09:19:22.7936636Z Contents: read
+backend	Set up job	2026-10-05T09:19:22.7937823Z Metadata: read
+backend	Set up job	2026-10-05T09:19:22.7938454Z Packages: read
+backend	Set up job	2026-10-05T09:19:22.7939005Z ##[endgroup]
+backend	Set up job	2026-10-05T09:19:22.7941104Z Secret source: Actions
+backend	Set up job	2026-10-05T09:19:22.7942077Z Cache mode: write
+backend	Set up job	2026-10-05T09:19:22.7942796Z Prepare workflow directory
+backend	Set up job	2026-10-05T09:19:22.8274511Z Prepare all required actions
+backend	Set up job	2026-10-05T09:19:22.8322916Z Getting action download info
+backend	Set up job	2026-10-05T09:19:23.2200881Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+backend	Set up job	2026-10-05T09:19:23.3229725Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+backend	Set up job	2026-10-05T09:19:23.5009825Z Complete job name: backend
+backend	Checkout code	﻿2026-10-05T09:19:23.5760267Z ##[group]Run actions/checkout@v4
+backend	Checkout code	2026-10-05T09:19:23.5761161Z with:
+backend	Checkout code	2026-10-05T09:19:23.5761718Z   repository: dzulfiqar03/xrwvm-fullstack_developer_capstone
+backend	Checkout code	2026-10-05T09:19:23.5765859Z   token: ***
+backend	Checkout code	2026-10-05T09:19:23.5766291Z   ssh-strict: true
+backend	Checkout code	2026-10-05T09:19:23.5766722Z   ssh-user: git
+backend	Checkout code	2026-10-05T09:19:23.5767385Z   persist-credentials: true
+backend	Checkout code	2026-10-05T09:19:23.5767897Z   clean: true
+backend	Checkout code	2026-10-05T09:19:23.5768340Z   sparse-checkout-cone-mode: true
+backend	Checkout code	2026-10-05T09:19:23.5768873Z   fetch-depth: 1
+backend	Checkout code	2026-10-05T09:19:23.5769300Z   fetch-tags: false
+backend	Checkout code	2026-10-05T09:19:23.5769737Z   show-progress: true
+backend	Checkout code	2026-10-05T09:19:23.5770189Z   lfs: false
+backend	Checkout code	2026-10-05T09:19:23.5770594Z   submodules: false
+backend	Checkout code	2026-10-05T09:19:23.5771038Z   set-safe-directory: true
+backend	Checkout code	2026-10-05T09:19:23.5771531Z   allow-unsafe-pr-checkout: false
+backend	Checkout code	2026-10-05T09:19:23.5772291Z ##[endgroup]
+backend	Checkout code	2026-10-05T09:19:23.6806333Z Syncing repository: dzulfiqar03/xrwvm-fullstack_developer_capstone
+backend	Checkout code	2026-10-05T09:19:23.6808669Z ##[group]Getting Git version info
+backend	Checkout code	2026-10-05T09:19:23.6809808Z Working directory is '/home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone'
+backend	Checkout code	2026-10-05T09:19:23.6811707Z [command]/usr/bin/git version
+backend	Checkout code	2026-10-05T09:19:23.6875013Z git version 2.55.0
+backend	Checkout code	2026-10-05T09:19:23.6884427Z ##[endgroup]
+backend	Checkout code	2026-10-05T09:19:23.6903372Z Temporarily overriding HOME='/home/runner/work/_temp/d2316670-de0f-4157-b0c8-f07017ad5ed6' before making global git config changes
+backend	Checkout code	2026-10-05T09:19:23.6906015Z Adding repository directory to the temporary git global config as a safe directory
+backend	Checkout code	2026-10-05T09:19:23.6910347Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+backend	Checkout code	2026-10-05T09:19:23.6962633Z Deleting the contents of '/home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone'
+backend	Checkout code	2026-10-05T09:19:23.6967623Z ##[group]Initializing the repository
+backend	Checkout code	2026-10-05T09:19:23.6972842Z [command]/usr/bin/git init /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+backend	Checkout code	2026-10-05T09:19:23.7083932Z hint: Using 'master' as the name for the initial branch. This default branch name
+backend	Checkout code	2026-10-05T09:19:23.7086018Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+backend	Checkout code	2026-10-05T09:19:23.7088045Z hint: to use in all of your new repositories, which will suppress this warning,
+backend	Checkout code	2026-10-05T09:19:23.7089522Z hint: call:
+backend	Checkout code	2026-10-05T09:19:23.7090358Z hint:
+backend	Checkout code	2026-10-05T09:19:23.7091350Z hint: 	git config --global init.defaultBranch <name>
+backend	Checkout code	2026-10-05T09:19:23.7092514Z hint:
+backend	Checkout code	2026-10-05T09:19:23.7093591Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+backend	Checkout code	2026-10-05T09:19:23.7095253Z hint: 'development'. The just-created branch can be renamed via this command:
+backend	Checkout code	2026-10-05T09:19:23.7096718Z hint:
+backend	Checkout code	2026-10-05T09:19:23.7097857Z hint: 	git branch -m <name>
+backend	Checkout code	2026-10-05T09:19:23.7098922Z hint:
+backend	Checkout code	2026-10-05T09:19:23.7100151Z hint: Disable this message with "git config set advice.defaultBranchName false"
+backend	Checkout code	2026-10-05T09:19:23.7102551Z Initialized empty Git repository in /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone/.git/
+backend	Checkout code	2026-10-05T09:19:23.7106991Z [command]/usr/bin/git remote add origin https://github.com/dzulfiqar03/xrwvm-fullstack_developer_capstone
+backend	Checkout code	2026-10-05T09:19:23.7149616Z ##[endgroup]
+backend	Checkout code	2026-10-05T09:19:23.7150972Z ##[group]Disabling automatic garbage collection
+backend	Checkout code	2026-10-05T09:19:23.7154133Z [command]/usr/bin/git config --local gc.auto 0
+backend	Checkout code	2026-10-05T09:19:23.7185476Z ##[endgroup]
+backend	Checkout code	2026-10-05T09:19:23.7186604Z ##[group]Setting up auth
+backend	Checkout code	2026-10-05T09:19:23.7191332Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+backend	Checkout code	2026-10-05T09:19:23.7223611Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+backend	Checkout code	2026-10-05T09:19:23.7631929Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+backend	Checkout code	2026-10-05T09:19:23.7691602Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+backend	Checkout code	2026-10-05T09:19:23.7935286Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+backend	Checkout code	2026-10-05T09:19:23.7974302Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+backend	Checkout code	2026-10-05T09:19:23.8199903Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+backend	Checkout code	2026-10-05T09:19:23.8240535Z ##[endgroup]
+backend	Checkout code	2026-10-05T09:19:23.8242006Z ##[group]Fetching the repository
+backend	Checkout code	2026-10-05T09:19:23.8252105Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +94faf6496d8a8fe80337762f973e5161e89afec0:refs/remotes/origin/main
+backend	Checkout code	2026-10-05T09:19:24.8115678Z From https://github.com/dzulfiqar03/xrwvm-fullstack_developer_capstone
+backend	Checkout code	2026-10-05T09:19:24.8119377Z  * [new ref]         94faf6496d8a8fe80337762f973e5161e89afec0 -> origin/main
+backend	Checkout code	2026-10-05T09:19:24.8125009Z ##[endgroup]
+backend	Checkout code	2026-10-05T09:19:24.8126923Z ##[group]Determining the checkout info
+backend	Checkout code	2026-10-05T09:19:24.8128838Z ##[endgroup]
+backend	Checkout code	2026-10-05T09:19:24.8130283Z [command]/usr/bin/git sparse-checkout disable
+backend	Checkout code	2026-10-05T09:19:24.8188968Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+backend	Checkout code	2026-10-05T09:19:24.8225818Z ##[group]Checking out the ref
+backend	Checkout code	2026-10-05T09:19:24.8230846Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+backend	Checkout code	2026-10-05T09:19:24.9523709Z Switched to a new branch 'main'
+backend	Checkout code	2026-10-05T09:19:24.9530165Z branch 'main' set up to track 'origin/main'.
+backend	Checkout code	2026-10-05T09:19:24.9542058Z ##[endgroup]
+backend	Checkout code	2026-10-05T09:19:24.9586540Z [command]/usr/bin/git log -1 --format=%H
+backend	Checkout code	2026-10-05T09:19:24.9615512Z 94faf6496d8a8fe80337762f973e5161e89afec0
+backend	Set up Python	﻿2026-10-05T09:19:24.9995438Z ##[group]Run actions/setup-python@v5
+backend	Set up Python	2026-10-05T09:19:24.9996916Z with:
+backend	Set up Python	2026-10-05T09:19:24.9998125Z   python-version: 3.11
+backend	Set up Python	2026-10-05T09:19:24.9999211Z   check-latest: false
+backend	Set up Python	2026-10-05T09:19:25.0009213Z   token: ***
+backend	Set up Python	2026-10-05T09:19:25.0010251Z   update-environment: true
+backend	Set up Python	2026-10-05T09:19:25.0011384Z   allow-prereleases: false
+backend	Set up Python	2026-10-05T09:19:25.0012496Z   freethreaded: false
+backend	Set up Python	2026-10-05T09:19:25.0013513Z ##[endgroup]
+backend	Set up Python	2026-10-05T09:19:25.1356451Z ##[group]Installed versions
+backend	Set up Python	2026-10-05T09:19:25.1448219Z (node:2305) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+backend	Set up Python	2026-10-05T09:19:25.1451794Z (Use `node --trace-deprecation ...` to show where the warning was created)
+backend	Set up Python	2026-10-05T09:19:25.1453652Z Successfully set up CPython (3.11.16)
+backend	Set up Python	2026-10-05T09:19:25.1455639Z ##[endgroup]
+backend	Install Python dependencies	﻿2026-10-05T09:19:25.1660604Z ##[group]Run pip install -r server/requirements.txt
+backend	Install Python dependencies	2026-10-05T09:19:25.1662250Z ^[[36;1mpip install -r server/requirements.txt^[[0m
+backend	Install Python dependencies	2026-10-05T09:19:25.1663566Z ^[[36;1mpip install flake8^[[0m
+backend	Install Python dependencies	2026-10-05T09:19:25.1975063Z shell: /usr/bin/bash -e {0}
+backend	Install Python dependencies	2026-10-05T09:19:25.1976344Z env:
+backend	Install Python dependencies	2026-10-05T09:19:25.1977768Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.16/x64
+backend	Install Python dependencies	2026-10-05T09:19:25.1979720Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib/pkgconfig
+backend	Install Python dependencies	2026-10-05T09:19:25.1981650Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+backend	Install Python dependencies	2026-10-05T09:19:25.1983405Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+backend	Install Python dependencies	2026-10-05T09:19:25.1984967Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+backend	Install Python dependencies	2026-10-05T09:19:25.1986526Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib
+backend	Install Python dependencies	2026-10-05T09:19:25.1987991Z ##[endgroup]
+backend	Install Python dependencies	2026-10-05T09:19:26.1245916Z Collecting requests (from -r server/requirements.txt (line 1))
+backend	Install Python dependencies	2026-10-05T09:19:26.1701433Z   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.2408406Z Collecting Django (from -r server/requirements.txt (line 2))
+backend	Install Python dependencies	2026-10-05T09:19:26.2440819Z   Downloading django-5.2.17-py3-none-any.whl.metadata (4.1 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.4020539Z Collecting Pillow (from -r server/requirements.txt (line 3))
+backend	Install Python dependencies	2026-10-05T09:19:26.4053347Z   Downloading pillow-12.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.4232178Z Collecting gunicorn (from -r server/requirements.txt (line 4))
+backend	Install Python dependencies	2026-10-05T09:19:26.4262442Z   Downloading gunicorn-26.2.0-py3-none-any.whl.metadata (5.5 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.4422871Z Collecting python-dotenv (from -r server/requirements.txt (line 5))
+backend	Install Python dependencies	2026-10-05T09:19:26.4452136Z   Downloading python_dotenv-1.2.4-py3-none-any.whl.metadata (29 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.5610784Z Collecting charset_normalizer<4,>=2 (from requests->-r server/requirements.txt (line 1))
+backend	Install Python dependencies	2026-10-05T09:19:26.5641154Z   Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.5846117Z Collecting idna<4,>=2.5 (from requests->-r server/requirements.txt (line 1))
+backend	Install Python dependencies	2026-10-05T09:19:26.5874430Z   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.6059102Z Collecting urllib3<3,>=1.26 (from requests->-r server/requirements.txt (line 1))
+backend	Install Python dependencies	2026-10-05T09:19:26.6089867Z   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.6248015Z Collecting certifi>=2023.5.7 (from requests->-r server/requirements.txt (line 1))
+backend	Install Python dependencies	2026-10-05T09:19:26.6279850Z   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.6438514Z Collecting asgiref>=3.8.1 (from Django->-r server/requirements.txt (line 2))
+backend	Install Python dependencies	2026-10-05T09:19:26.6466762Z   Downloading asgiref-3.12.1-py3-none-any.whl.metadata (9.4 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.6602067Z Collecting sqlparse>=0.3.1 (from Django->-r server/requirements.txt (line 2))
+backend	Install Python dependencies	2026-10-05T09:19:26.6630993Z   Downloading sqlparse-0.6.0-py3-none-any.whl.metadata (6.0 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.6708049Z Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.6760374Z Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (269 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.6819751Z Downloading idna-3.20-py3-none-any.whl (69 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.6865508Z Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.6948310Z Downloading django-5.2.17-py3-none-any.whl (8.3 MB)
+backend	Install Python dependencies	2026-10-05T09:19:26.7436517Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 175.0 MB/s  0:00:00
+backend	Install Python dependencies	2026-10-05T09:19:26.7468227Z Downloading pillow-12.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.9 MB)
+backend	Install Python dependencies	2026-10-05T09:19:26.7682568Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 350.3 MB/s  0:00:00
+backend	Install Python dependencies	2026-10-05T09:19:26.7714175Z Downloading gunicorn-26.2.0-py3-none-any.whl (228 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.7770528Z Downloading python_dotenv-1.2.4-py3-none-any.whl (23 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.7821744Z Downloading asgiref-3.12.1-py3-none-any.whl (25 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.7871074Z Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.7925158Z Downloading sqlparse-0.6.0-py3-none-any.whl (50 kB)
+backend	Install Python dependencies	2026-10-05T09:19:26.9274047Z Installing collected packages: urllib3, sqlparse, python-dotenv, Pillow, idna, gunicorn, charset_normalizer, certifi, asgiref, requests, Django
+backend	Install Python dependencies	2026-10-05T09:19:29.1614130Z 
+backend	Install Python dependencies	2026-10-05T09:19:29.1626266Z Successfully installed Django-5.2.17 Pillow-12.3.0 asgiref-3.12.1 certifi-2026.7.22 charset_normalizer-3.5.2 gunicorn-26.2.0 idna-3.20 python-dotenv-1.2.4 requests-2.34.2 sqlparse-0.6.0 urllib3-2.8.0
+backend	Install Python dependencies	2026-10-05T09:19:29.5944735Z Collecting flake8
+backend	Install Python dependencies	2026-10-05T09:19:29.6435765Z   Downloading flake8-7.4.1-py2.py3-none-any.whl.metadata (3.8 kB)
+backend	Install Python dependencies	2026-10-05T09:19:29.6608623Z Collecting mccabe<0.8.0,>=0.7.0 (from flake8)
+backend	Install Python dependencies	2026-10-05T09:19:29.6641587Z   Downloading mccabe-0.7.0-py2.py3-none-any.whl.metadata (5.0 kB)
+backend	Install Python dependencies	2026-10-05T09:19:29.6821744Z Collecting pycodestyle<2.16.0,>=2.15.0 (from flake8)
+backend	Install Python dependencies	2026-10-05T09:19:29.6852910Z   Downloading pycodestyle-2.15.0-py2.py3-none-any.whl.metadata (4.5 kB)
+backend	Install Python dependencies	2026-10-05T09:19:29.7054713Z Collecting pyflakes<4.1.0,>=4.0.0 (from flake8)
+backend	Install Python dependencies	2026-10-05T09:19:29.7089931Z   Downloading pyflakes-4.0.2-py2.py3-none-any.whl.metadata (3.7 kB)
+backend	Install Python dependencies	2026-10-05T09:19:29.7158240Z Downloading flake8-7.4.1-py2.py3-none-any.whl (57 kB)
+backend	Install Python dependencies	2026-10-05T09:19:29.7298505Z Downloading mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+backend	Install Python dependencies	2026-10-05T09:19:29.7346729Z Downloading pycodestyle-2.15.0-py2.py3-none-any.whl (31 kB)
+backend	Install Python dependencies	2026-10-05T09:19:29.7394327Z Downloading pyflakes-4.0.2-py2.py3-none-any.whl (66 kB)
+backend	Install Python dependencies	2026-10-05T09:19:29.7763813Z Installing collected packages: pyflakes, pycodestyle, mccabe, flake8
+backend	Install Python dependencies	2026-10-05T09:19:29.8879454Z 
+backend	Install Python dependencies	2026-10-05T09:19:29.8892088Z Successfully installed flake8-7.4.1 mccabe-0.7.0 pycodestyle-2.15.0 pyflakes-4.0.2
+backend	Lint Python	﻿2026-10-05T09:19:29.9362002Z ##[group]Run flake8 server --exclude=venv,migrations,node_modules --count --select=E9,F63,F7,F82 --show-source --statistics
+backend	Lint Python	2026-10-05T09:19:29.9362962Z ^[[36;1mflake8 server --exclude=venv,migrations,node_modules --count --select=E9,F63,F7,F82 --show-source --statistics^[[0m
+backend	Lint Python	2026-10-05T09:19:29.9430126Z shell: /usr/bin/bash -e {0}
+backend	Lint Python	2026-10-05T09:19:29.9430427Z env:
+backend	Lint Python	2026-10-05T09:19:29.9430739Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.16/x64
+backend	Lint Python	2026-10-05T09:19:29.9431266Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib/pkgconfig
+backend	Lint Python	2026-10-05T09:19:29.9431786Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+backend	Lint Python	2026-10-05T09:19:29.9432255Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+backend	Lint Python	2026-10-05T09:19:29.9432723Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+backend	Lint Python	2026-10-05T09:19:29.9433187Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib
+backend	Lint Python	2026-10-05T09:19:29.9433580Z ##[endgroup]
+backend	Lint Python	2026-10-05T09:19:30.3516981Z 0
+backend	Post Set up Python	﻿2026-10-05T09:19:30.3808582Z Post job cleanup.
+backend	Post Set up Python	2026-10-05T09:19:30.5018782Z (node:2373) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+backend	Post Set up Python	2026-10-05T09:19:30.5020549Z (Use `node --trace-deprecation ...` to show where the warning was created)
+backend	Post Checkout code	﻿2026-10-05T09:19:30.5217836Z Post job cleanup.
+backend	Post Checkout code	2026-10-05T09:19:30.6080598Z [command]/usr/bin/git version
+backend	Post Checkout code	2026-10-05T09:19:30.6125538Z git version 2.55.0
+backend	Post Checkout code	2026-10-05T09:19:30.6165288Z Temporarily overriding HOME='/home/runner/work/_temp/53717ac6-b0a1-4aef-b031-20b0ac24e8de' before making global git config changes
+backend	Post Checkout code	2026-10-05T09:19:30.6166759Z Adding repository directory to the temporary git global config as a safe directory
+backend	Post Checkout code	2026-10-05T09:19:30.6172248Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+backend	Post Checkout code	2026-10-05T09:19:30.6211166Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+backend	Post Checkout code	2026-10-05T09:19:30.6249345Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+backend	Post Checkout code	2026-10-05T09:19:30.6501721Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+backend	Post Checkout code	2026-10-05T09:19:30.6537939Z http.https://github.com/.extraheader
+backend	Post Checkout code	2026-10-05T09:19:30.6541497Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+backend	Post Checkout code	2026-10-05T09:19:30.6577572Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+backend	Post Checkout code	2026-10-05T09:19:30.6892195Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+backend	Post Checkout code	2026-10-05T09:19:30.6948449Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+backend	Complete job	﻿2026-10-05T09:19:30.7412636Z Cleaning up orphan processes
+backend	Complete job	2026-10-05T09:19:30.7705266Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+frontend	Set up job	﻿2026-10-05T09:19:14.8950739Z Current runner version: '2.337.0'
+frontend	Set up job	2026-10-05T09:19:14.8968038Z ##[group]Runner Image Provisioner
+frontend	Set up job	2026-10-05T09:19:14.8968626Z Hosted Compute Agent
+frontend	Set up job	2026-10-05T09:19:14.8969043Z Version: 20260901.588
+frontend	Set up job	2026-10-05T09:19:14.8969411Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+frontend	Set up job	2026-10-05T09:19:14.8969891Z Build Date: 2026-09-01T19:56:44Z
+frontend	Set up job	2026-10-05T09:19:14.8970297Z Worker ID: {97465777-7590-48dd-bcee-01437e6d228f}
+frontend	Set up job	2026-10-05T09:19:14.8970702Z Azure Region: centralus
+frontend	Set up job	2026-10-05T09:19:14.8971072Z ##[endgroup]
+frontend	Set up job	2026-10-05T09:19:14.8971860Z ##[group]Operating System
+frontend	Set up job	2026-10-05T09:19:14.8972417Z Ubuntu
+frontend	Set up job	2026-10-05T09:19:14.8972780Z 24.04.5
+frontend	Set up job	2026-10-05T09:19:14.8973107Z LTS
+frontend	Set up job	2026-10-05T09:19:14.8973447Z ##[endgroup]
+frontend	Set up job	2026-10-05T09:19:14.8973762Z ##[group]Runner Image
+frontend	Set up job	2026-10-05T09:19:14.8974127Z Image: ubuntu-24.04
+frontend	Set up job	2026-10-05T09:19:14.8974517Z Version: 20260927.320.1
+frontend	Set up job	2026-10-05T09:19:14.8975112Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+frontend	Set up job	2026-10-05T09:19:14.8976129Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+frontend	Set up job	2026-10-05T09:19:14.8976690Z ##[endgroup]
+frontend	Set up job	2026-10-05T09:19:14.8977429Z ##[group]GITHUB_TOKEN Permissions
+frontend	Set up job	2026-10-05T09:19:14.8978725Z Contents: read
+frontend	Set up job	2026-10-05T09:19:14.8979123Z Metadata: read
+frontend	Set up job	2026-10-05T09:19:14.8979478Z Packages: read
+frontend	Set up job	2026-10-05T09:19:14.8980049Z ##[endgroup]
+frontend	Set up job	2026-10-05T09:19:14.8981327Z Secret source: Actions
+frontend	Set up job	2026-10-05T09:19:14.8981907Z Cache mode: write
+frontend	Set up job	2026-10-05T09:19:14.8982473Z Prepare workflow directory
+frontend	Set up job	2026-10-05T09:19:14.9198520Z Prepare all required actions
+frontend	Set up job	2026-10-05T09:19:14.9229727Z Getting action download info
+frontend	Set up job	2026-10-05T09:19:15.2173265Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+frontend	Set up job	2026-10-05T09:19:15.3056930Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+frontend	Set up job	2026-10-05T09:19:15.4606975Z Complete job name: frontend
+frontend	Checkout code	﻿2026-10-05T09:19:15.5051860Z ##[group]Run actions/checkout@v4
+frontend	Checkout code	2026-10-05T09:19:15.5052519Z with:
+frontend	Checkout code	2026-10-05T09:19:15.5052833Z   repository: dzulfiqar03/xrwvm-fullstack_developer_capstone
+frontend	Checkout code	2026-10-05T09:19:15.5055375Z   token: ***
+frontend	Checkout code	2026-10-05T09:19:15.5055617Z   ssh-strict: true
+frontend	Checkout code	2026-10-05T09:19:15.5055864Z   ssh-user: git
+frontend	Checkout code	2026-10-05T09:19:15.5056114Z   persist-credentials: true
+frontend	Checkout code	2026-10-05T09:19:15.5056386Z   clean: true
+frontend	Checkout code	2026-10-05T09:19:15.5056633Z   sparse-checkout-cone-mode: true
+frontend	Checkout code	2026-10-05T09:19:15.5056922Z   fetch-depth: 1
+frontend	Checkout code	2026-10-05T09:19:15.5057160Z   fetch-tags: false
+frontend	Checkout code	2026-10-05T09:19:15.5057409Z   show-progress: true
+frontend	Checkout code	2026-10-05T09:19:15.5057654Z   lfs: false
+frontend	Checkout code	2026-10-05T09:19:15.5057885Z   submodules: false
+frontend	Checkout code	2026-10-05T09:19:15.5058135Z   set-safe-directory: true
+frontend	Checkout code	2026-10-05T09:19:15.5058414Z   allow-unsafe-pr-checkout: false
+frontend	Checkout code	2026-10-05T09:19:15.5058766Z ##[endgroup]
+frontend	Checkout code	2026-10-05T09:19:15.6544199Z Syncing repository: dzulfiqar03/xrwvm-fullstack_developer_capstone
+frontend	Checkout code	2026-10-05T09:19:15.6545437Z ##[group]Getting Git version info
+frontend	Checkout code	2026-10-05T09:19:15.6546026Z Working directory is '/home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone'
+frontend	Checkout code	2026-10-05T09:19:15.6546728Z [command]/usr/bin/git version
+frontend	Checkout code	2026-10-05T09:19:15.6547002Z git version 2.55.0
+frontend	Checkout code	2026-10-05T09:19:15.6547851Z ##[endgroup]
+frontend	Checkout code	2026-10-05T09:19:15.6550645Z Temporarily overriding HOME='/home/runner/work/_temp/b1701f1c-22ff-4c4b-aeaa-d28ab80fb93d' before making global git config changes
+frontend	Checkout code	2026-10-05T09:19:15.6551356Z Adding repository directory to the temporary git global config as a safe directory
+frontend	Checkout code	2026-10-05T09:19:15.6552308Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+frontend	Checkout code	2026-10-05T09:19:15.6990650Z Deleting the contents of '/home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone'
+frontend	Checkout code	2026-10-05T09:19:15.6995526Z ##[group]Initializing the repository
+frontend	Checkout code	2026-10-05T09:19:15.6999640Z [command]/usr/bin/git init /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+frontend	Checkout code	2026-10-05T09:19:15.7294809Z hint: Using 'master' as the name for the initial branch. This default branch name
+frontend	Checkout code	2026-10-05T09:19:15.7295597Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+frontend	Checkout code	2026-10-05T09:19:15.7296109Z hint: to use in all of your new repositories, which will suppress this warning,
+frontend	Checkout code	2026-10-05T09:19:15.7296578Z hint: call:
+frontend	Checkout code	2026-10-05T09:19:15.7296919Z hint:
+frontend	Checkout code	2026-10-05T09:19:15.7297325Z hint: 	git config --global init.defaultBranch <name>
+frontend	Checkout code	2026-10-05T09:19:15.7297805Z hint:
+frontend	Checkout code	2026-10-05T09:19:15.7298131Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+frontend	Checkout code	2026-10-05T09:19:15.7298734Z hint: 'development'. The just-created branch can be renamed via this command:
+frontend	Checkout code	2026-10-05T09:19:15.7299397Z hint:
+frontend	Checkout code	2026-10-05T09:19:15.7299750Z hint: 	git branch -m <name>
+frontend	Checkout code	2026-10-05T09:19:15.7300166Z hint:
+frontend	Checkout code	2026-10-05T09:19:15.7300713Z hint: Disable this message with "git config set advice.defaultBranchName false"
+frontend	Checkout code	2026-10-05T09:19:15.7301940Z Initialized empty Git repository in /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone/.git/
+frontend	Checkout code	2026-10-05T09:19:15.7306459Z [command]/usr/bin/git remote add origin https://github.com/dzulfiqar03/xrwvm-fullstack_developer_capstone
+frontend	Checkout code	2026-10-05T09:19:15.7484736Z ##[endgroup]
+frontend	Checkout code	2026-10-05T09:19:15.7485173Z ##[group]Disabling automatic garbage collection
+frontend	Checkout code	2026-10-05T09:19:15.7487719Z [command]/usr/bin/git config --local gc.auto 0
+frontend	Checkout code	2026-10-05T09:19:15.7578766Z ##[endgroup]
+frontend	Checkout code	2026-10-05T09:19:15.7579180Z ##[group]Setting up auth
+frontend	Checkout code	2026-10-05T09:19:15.7583423Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+frontend	Checkout code	2026-10-05T09:19:15.7609322Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+frontend	Checkout code	2026-10-05T09:19:15.7929792Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+frontend	Checkout code	2026-10-05T09:19:15.7957190Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+frontend	Checkout code	2026-10-05T09:19:15.8129526Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+frontend	Checkout code	2026-10-05T09:19:15.8155628Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+frontend	Checkout code	2026-10-05T09:19:15.8331892Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+frontend	Checkout code	2026-10-05T09:19:15.8574983Z ##[endgroup]
+frontend	Checkout code	2026-10-05T09:19:15.8575828Z ##[group]Fetching the repository
+frontend	Checkout code	2026-10-05T09:19:15.8583243Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +94faf6496d8a8fe80337762f973e5161e89afec0:refs/remotes/origin/main
+frontend	Checkout code	2026-10-05T09:19:17.0344533Z From https://github.com/dzulfiqar03/xrwvm-fullstack_developer_capstone
+frontend	Checkout code	2026-10-05T09:19:17.0345988Z  * [new ref]         94faf6496d8a8fe80337762f973e5161e89afec0 -> origin/main
+frontend	Checkout code	2026-10-05T09:19:17.0348416Z ##[endgroup]
+frontend	Checkout code	2026-10-05T09:19:17.0349261Z ##[group]Determining the checkout info
+frontend	Checkout code	2026-10-05T09:19:17.0351266Z ##[endgroup]
+frontend	Checkout code	2026-10-05T09:19:17.0355257Z [command]/usr/bin/git sparse-checkout disable
+frontend	Checkout code	2026-10-05T09:19:17.0638333Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+frontend	Checkout code	2026-10-05T09:19:17.0727680Z ##[group]Checking out the ref
+frontend	Checkout code	2026-10-05T09:19:17.0730350Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+frontend	Checkout code	2026-10-05T09:19:17.2033668Z Switched to a new branch 'main'
+frontend	Checkout code	2026-10-05T09:19:17.2037061Z branch 'main' set up to track 'origin/main'.
+frontend	Checkout code	2026-10-05T09:19:17.2049285Z ##[endgroup]
+frontend	Checkout code	2026-10-05T09:19:17.2088000Z [command]/usr/bin/git log -1 --format=%H
+frontend	Checkout code	2026-10-05T09:19:17.2111073Z 94faf6496d8a8fe80337762f973e5161e89afec0
+frontend	Set up Node	﻿2026-10-05T09:19:17.2470843Z ##[group]Run actions/setup-node@v4
+frontend	Set up Node	2026-10-05T09:19:17.2471782Z with:
+frontend	Set up Node	2026-10-05T09:19:17.2472433Z   node-version: 20
+frontend	Set up Node	2026-10-05T09:19:17.2473034Z   always-auth: false
+frontend	Set up Node	2026-10-05T09:19:17.2473638Z   check-latest: false
+frontend	Set up Node	2026-10-05T09:19:17.2479947Z   token: ***
+frontend	Set up Node	2026-10-05T09:19:17.2480502Z ##[endgroup]
+frontend	Set up Node	2026-10-05T09:19:17.3529124Z Attempting to download 20...
+frontend	Set up Node	2026-10-05T09:19:17.3596251Z (node:2081) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+frontend	Set up Node	2026-10-05T09:19:17.3598327Z (Use `node --trace-deprecation ...` to show where the warning was created)
+frontend	Set up Node	2026-10-05T09:19:18.7984573Z Acquiring 20.20.2 - x64 from https://github.com/actions/node-versions/releases/download/20.20.2-23521894959/node-20.20.2-linux-x64.tar.gz
+frontend	Set up Node	2026-10-05T09:19:19.2253211Z Extracting ...
+frontend	Set up Node	2026-10-05T09:19:19.2337720Z [command]/usr/bin/tar xz --strip 1 --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/b8e0e668-1306-4165-9368-a348be47dc40 -f /home/runner/work/_temp/3cd531a0-37bb-4eb0-a84f-5603a3a6af59
+frontend	Set up Node	2026-10-05T09:19:20.0047715Z Adding to the cache ...
+frontend	Set up Node	2026-10-05T09:19:21.6225232Z ##[group]Environment details
+frontend	Set up Node	2026-10-05T09:19:21.7716235Z node: v20.20.2
+frontend	Set up Node	2026-10-05T09:19:21.7716707Z npm: 10.8.2
+frontend	Set up Node	2026-10-05T09:19:21.7716883Z yarn: 1.22.22
+frontend	Set up Node	2026-10-05T09:19:21.7717354Z ##[endgroup]
+frontend	Install frontend dependencies	﻿2026-10-05T09:19:21.7878857Z ##[group]Run npm ci
+frontend	Install frontend dependencies	2026-10-05T09:19:21.7879092Z ^[[36;1mnpm ci^[[0m
+frontend	Install frontend dependencies	2026-10-05T09:19:21.8132724Z shell: /usr/bin/bash -e {0}
+frontend	Install frontend dependencies	2026-10-05T09:19:21.8132919Z ##[endgroup]
+frontend	Install frontend dependencies	2026-10-05T09:19:24.4649841Z npm warn deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+frontend	Install frontend dependencies	2026-10-05T09:19:24.7627466Z npm warn deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+frontend	Install frontend dependencies	2026-10-05T09:19:24.7773669Z npm warn deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+frontend	Install frontend dependencies	2026-10-05T09:19:24.8541060Z npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+frontend	Install frontend dependencies	2026-10-05T09:19:24.8799593Z npm warn deprecated rollup-plugin-terser@7.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
+frontend	Install frontend dependencies	2026-10-05T09:19:24.9029159Z npm warn deprecated workbox-cacheable-response@6.6.0: workbox-background-sync@6.6.0
+frontend	Install frontend dependencies	2026-10-05T09:19:24.9305102Z npm warn deprecated workbox-google-analytics@6.6.0: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
+frontend	Install frontend dependencies	2026-10-05T09:19:25.0380463Z npm warn deprecated q@1.5.1: You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+frontend	Install frontend dependencies	2026-10-05T09:19:25.0381420Z npm warn deprecated
+frontend	Install frontend dependencies	2026-10-05T09:19:25.0381710Z npm warn deprecated (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
+frontend	Install frontend dependencies	2026-10-05T09:19:25.8368679Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+frontend	Install frontend dependencies	2026-10-05T09:19:25.9487412Z npm warn deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+frontend	Install frontend dependencies	2026-10-05T09:19:25.9775453Z npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+frontend	Install frontend dependencies	2026-10-05T09:19:26.2753540Z npm warn deprecated domexception@2.0.1: Use your platform's native DOMException instead
+frontend	Install frontend dependencies	2026-10-05T09:19:27.0054417Z npm warn deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+frontend	Install frontend dependencies	2026-10-05T09:19:27.4383879Z npm warn deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+frontend	Install frontend dependencies	2026-10-05T09:19:27.4454185Z npm warn deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+frontend	Install frontend dependencies	2026-10-05T09:19:27.7702300Z npm warn deprecated @babel/plugin-proposal-private-property-in-object@7.21.11: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-property-in-object instead.
+frontend	Install frontend dependencies	2026-10-05T09:19:27.7821608Z npm warn deprecated @babel/plugin-proposal-private-methods@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead.
+frontend	Install frontend dependencies	2026-10-05T09:19:27.7823772Z npm warn deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+frontend	Install frontend dependencies	2026-10-05T09:19:27.7919315Z npm warn deprecated @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+frontend	Install frontend dependencies	2026-10-05T09:19:27.7920680Z npm warn deprecated @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+frontend	Install frontend dependencies	2026-10-05T09:19:27.7922270Z npm warn deprecated @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+frontend	Install frontend dependencies	2026-10-05T09:19:31.0160717Z npm warn deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+frontend	Install frontend dependencies	2026-10-05T09:20:07.1366112Z 
+frontend	Install frontend dependencies	2026-10-05T09:20:07.1366913Z added 1557 packages, and audited 1558 packages in 45s
+frontend	Install frontend dependencies	2026-10-05T09:20:07.1367262Z 
+frontend	Install frontend dependencies	2026-10-05T09:20:07.1370279Z 271 packages are looking for funding
+frontend	Install frontend dependencies	2026-10-05T09:20:07.1370844Z   run `npm fund` for details
+frontend	Install frontend dependencies	2026-10-05T09:20:07.3650847Z 
+frontend	Install frontend dependencies	2026-10-05T09:20:07.3651701Z 105 vulnerabilities (8 low, 14 moderate, 80 high, 3 critical)
+frontend	Install frontend dependencies	2026-10-05T09:20:07.3651999Z 
+frontend	Install frontend dependencies	2026-10-05T09:20:07.3653971Z To address issues that do not require attention, run:
+frontend	Install frontend dependencies	2026-10-05T09:20:07.3654294Z   npm audit fix
+frontend	Install frontend dependencies	2026-10-05T09:20:07.3654502Z 
+frontend	Install frontend dependencies	2026-10-05T09:20:07.3654688Z To address all issues (including breaking changes), run:
+frontend	Install frontend dependencies	2026-10-05T09:20:07.3655048Z   npm audit fix --force
+frontend	Install frontend dependencies	2026-10-05T09:20:07.3655173Z 
+frontend	Install frontend dependencies	2026-10-05T09:20:07.3655275Z Run `npm audit` for details.
+frontend	Build frontend	﻿2026-10-05T09:20:07.3990394Z ##[group]Run npm run build
+frontend	Build frontend	2026-10-05T09:20:07.3990577Z ^[[36;1mnpm run build^[[0m
+frontend	Build frontend	2026-10-05T09:20:07.4052686Z shell: /usr/bin/bash -e {0}
+frontend	Build frontend	2026-10-05T09:20:07.4052988Z env:
+frontend	Build frontend	2026-10-05T09:20:07.4053095Z   CI: false
+frontend	Build frontend	2026-10-05T09:20:07.4053204Z ##[endgroup]
+frontend	Build frontend	2026-10-05T09:20:07.5786390Z 
+frontend	Build frontend	2026-10-05T09:20:07.5786959Z > usermgmt@0.1.0 build
+frontend	Build frontend	2026-10-05T09:20:07.5787232Z > react-scripts build
+frontend	Build frontend	2026-10-05T09:20:07.5787316Z 
+frontend	Build frontend	2026-10-05T09:20:08.1055168Z Creating an optimized production build...
+frontend	Build frontend	2026-10-05T09:20:08.1634663Z Browserslist: browsers data (caniuse-lite) is 22 months old. Please run:
+frontend	Build frontend	2026-10-05T09:20:08.1634982Z   npx update-browserslist-db@latest
+frontend	Build frontend	2026-10-05T09:20:08.1635260Z   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+frontend	Build frontend	2026-10-05T09:20:12.0180168Z Browserslist: browsers data (caniuse-lite) is 22 months old. Please run:
+frontend	Build frontend	2026-10-05T09:20:12.0180812Z   npx update-browserslist-db@latest
+frontend	Build frontend	2026-10-05T09:20:12.0181234Z   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+frontend	Build frontend	2026-10-05T09:20:12.6715772Z Compiled with warnings.
+frontend	Build frontend	2026-10-05T09:20:12.6715982Z 
+frontend	Build frontend	2026-10-05T09:20:12.6716041Z Warning
+frontend	Build frontend	2026-10-05T09:20:12.6716560Z (6:27710) autoprefixer: Replace color-adjust to print-color-adjust. The color-adjust shorthand is currently deprecated.
+frontend	Build frontend	2026-10-05T09:20:12.6716816Z 
+frontend	Build frontend	2026-10-05T09:20:12.6717183Z [eslint] 
+frontend	Build frontend	2026-10-05T09:20:12.6717346Z src/components/Dealers/Dealer.jsx
+frontend	Build frontend	2026-10-05T09:20:12.6717801Z   Line 89:5:  React Hook useEffect has missing dependencies: 'get_dealer', 'get_reviews', and 'post_review'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+frontend	Build frontend	2026-10-05T09:20:12.6718218Z 
+frontend	Build frontend	2026-10-05T09:20:12.6718304Z src/components/Dealers/PostReview.jsx
+frontend	Build frontend	2026-10-05T09:20:12.6718772Z   Line 90:8:  React Hook useEffect has missing dependencies: 'get_cars' and 'get_dealer'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+frontend	Build frontend	2026-10-05T09:20:12.6719083Z 
+frontend	Build frontend	2026-10-05T09:20:12.6719198Z Search for the keywords to learn more about each warning.
+frontend	Build frontend	2026-10-05T09:20:12.6719545Z To ignore, add // eslint-disable-next-line to the line before.
+frontend	Build frontend	2026-10-05T09:20:12.6719684Z 
+frontend	Build frontend	2026-10-05T09:20:12.6719744Z File sizes after gzip:
+frontend	Build frontend	2026-10-05T09:20:12.6719823Z 
+frontend	Build frontend	2026-10-05T09:20:12.6799611Z   61.34 kB  build/static/js/main.9601775b.js
+frontend	Build frontend	2026-10-05T09:20:12.6799958Z   23.96 kB  build/static/css/main.d7f0f549.css
+frontend	Build frontend	2026-10-05T09:20:12.6800076Z 
+frontend	Build frontend	2026-10-05T09:20:12.6801475Z The project was built assuming it is hosted at /.
+frontend	Build frontend	2026-10-05T09:20:12.6801948Z You can control this with the homepage field in your package.json.
+frontend	Build frontend	2026-10-05T09:20:12.6802280Z 
+frontend	Build frontend	2026-10-05T09:20:12.6817256Z The build folder is ready to be deployed.
+frontend	Build frontend	2026-10-05T09:20:12.6817639Z You may serve it with a static server:
+frontend	Build frontend	2026-10-05T09:20:12.6817750Z 
+frontend	Build frontend	2026-10-05T09:20:12.6817822Z   npm install -g serve
+frontend	Build frontend	2026-10-05T09:20:12.6817971Z   serve -s build
+frontend	Build frontend	2026-10-05T09:20:12.6818043Z 
+frontend	Build frontend	2026-10-05T09:20:12.6818128Z Find out more about deployment here:
+frontend	Build frontend	2026-10-05T09:20:12.6818244Z 
+frontend	Build frontend	2026-10-05T09:20:12.6818498Z   https://cra.link/deployment
+frontend	Build frontend	2026-10-05T09:20:12.6818646Z 
+frontend	Build frontend	2026-10-05T09:20:12.7173361Z npm notice
+frontend	Build frontend	2026-10-05T09:20:12.7173908Z npm notice New major version of npm available! 10.8.2 -> 12.2.0
+frontend	Build frontend	2026-10-05T09:20:12.7176316Z npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+frontend	Build frontend	2026-10-05T09:20:12.7176787Z npm notice To update run: npm install -g npm@12.2.0
+frontend	Build frontend	2026-10-05T09:20:12.7177083Z npm notice
+frontend	Post Set up Node	﻿2026-10-05T09:20:12.7291667Z Post job cleanup.
+frontend	Post Set up Node	2026-10-05T09:20:12.8070790Z (node:2191) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+frontend	Post Set up Node	2026-10-05T09:20:12.8071328Z (Use `node --trace-deprecation ...` to show where the warning was created)
+frontend	Post Checkout code	﻿2026-10-05T09:20:12.8228249Z Post job cleanup.
+frontend	Post Checkout code	2026-10-05T09:20:12.8769012Z [command]/usr/bin/git version
+frontend	Post Checkout code	2026-10-05T09:20:12.8800990Z git version 2.55.0
+frontend	Post Checkout code	2026-10-05T09:20:12.8826446Z Temporarily overriding HOME='/home/runner/work/_temp/687c3bba-1a94-4a87-9e51-836046ccb811' before making global git config changes
+frontend	Post Checkout code	2026-10-05T09:20:12.8827303Z Adding repository directory to the temporary git global config as a safe directory
+frontend	Post Checkout code	2026-10-05T09:20:12.8830289Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/xrwvm-fullstack_developer_capstone/xrwvm-fullstack_developer_capstone
+frontend	Post Checkout code	2026-10-05T09:20:12.8862369Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+frontend	Post Checkout code	2026-10-05T09:20:12.8890324Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+frontend	Post Checkout code	2026-10-05T09:20:12.9083035Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+frontend	Post Checkout code	2026-10-05T09:20:12.9105943Z http.https://github.com/.extraheader
+frontend	Post Checkout code	2026-10-05T09:20:12.9113915Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+frontend	Post Checkout code	2026-10-05T09:20:12.9141733Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+frontend	Post Checkout code	2026-10-05T09:20:12.9373609Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+frontend	Post Checkout code	2026-10-05T09:20:12.9398784Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+frontend	Complete job	﻿2026-10-05T09:20:12.9759378Z Cleaning up orphan processes
+frontend	Complete job	2026-10-05T09:20:12.9975214Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
